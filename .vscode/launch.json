@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch webview sample (Linux)",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/main.dart",
+            "args": [],
+            "env": {
+                "DISPLAY": ":0",
+                "PATH": "/home/amjad/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+            },
+            "flutterMode": "debug",
+            "deviceId": "linux"
+        }
+    ]
+}
